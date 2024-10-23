@@ -6,13 +6,13 @@
 /*   By: cle-berr <cle-berr@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/17 10:16:41 by cle-berr          #+#    #+#             */
-/*   Updated: 2024/10/18 14:25:10 by cle-berr         ###   ########.fr       */
+/*   Updated: 2024/10/22 11:11:09 by cle-berr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int	count_word(const char *s, char c)
+static int	count_word(const char *s, char c)
 {
 	int	count;
 	int	in_word;
@@ -33,7 +33,7 @@ int	count_word(const char *s, char c)
 	return (count);
 }
 
-char	*ft_strndup(const char *src, size_t len)
+static char	*ft_strndup(const char *src, size_t len)
 {
 	char	*dest;
 	size_t	i;
@@ -51,7 +51,7 @@ char	*ft_strndup(const char *src, size_t len)
 	return (dest);
 }
 
-int	copy_word(char **res, const char *s, int *i, char c)
+static int	copy_word(char **res, const char *s, int *i, char c)
 {
 	size_t	len;
 
@@ -121,7 +121,7 @@ int main(void)
 	char **result;
 	int i;
 
-	result = ft_split("split de m**de qui ma saouler des heures 	", ' ');
+	result = ft_split("split de *\;'#@* qui ma saouler des heures 	", ' ');
 	i = 0;
 	while (result[i])
 	{

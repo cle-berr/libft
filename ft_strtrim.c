@@ -6,13 +6,13 @@
 /*   By: cle-berr <cle-berr@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/16 13:15:12 by cle-berr          #+#    #+#             */
-/*   Updated: 2024/10/16 16:47:19 by cle-berr         ###   ########.fr       */
+/*   Updated: 2024/10/21 10:53:20 by cle-berr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int	set_in(char c, char const *set)
+static int	set_in(char c, char const *set)
 {
 	while (*set)
 	{

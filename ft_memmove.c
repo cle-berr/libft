@@ -6,13 +6,13 @@
 /*   By: cle-berr <cle-berr@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/14 17:48:14 by cle-berr          #+#    #+#             */
-/*   Updated: 2024/10/18 09:24:17 by cle-berr         ###   ########.fr       */
+/*   Updated: 2024/10/21 10:52:04 by cle-berr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void	copy_forward(unsigned char *dest, const unsigned char *src, int n)
+static void	copy_forward(unsigned char *dest, const unsigned char *src, int n)
 {
 	int	i;
 

@@ -6,7 +6,7 @@
 /*   By: cle-berr <cle-berr@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/15 11:28:24 by cle-berr          #+#    #+#             */
-/*   Updated: 2024/10/15 14:20:07 by cle-berr         ###   ########.fr       */
+/*   Updated: 2024/10/22 10:35:46 by cle-berr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,6 +27,7 @@ void	*ft_memchr(const void *s, int c, size_t n)
 
 /*#include <stdio.h>
 #include <string.h>
+
 int main(void)
 {
 	char str1[] = "abcdef";

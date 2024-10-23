@@ -6,7 +6,7 @@
 /*   By: cle-berr <cle-berr@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/14 17:19:23 by cle-berr          #+#    #+#             */
-/*   Updated: 2024/10/18 11:37:12 by cle-berr         ###   ########.fr       */
+/*   Updated: 2024/10/22 10:47:46 by cle-berr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,17 +31,14 @@ void	*ft_memcpy(void *dest, const void *src, size_t n)
 	return (dest);
 }
 
-/*
-#include <stdio.h>
+/*#include <stdio.h>
 #include <string.h>
 
 int main() {
     char src[] = "Hello, World!";
     char dest[50];
 
-    // Copying 13 bytes from src to dest
-    ft_memcpy(dest, src, strlen(src) + 1); // +1 to include null terminator
-
+    ft_memcpy(dest, src, strlen(src) + 1);
     printf("Source: %s\n", src);
     printf("Destination: %s\n", dest);
 

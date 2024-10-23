@@ -6,7 +6,7 @@
 /*   By: cle-berr <cle-berr@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/16 15:48:51 by cle-berr          #+#    #+#             */
-/*   Updated: 2024/10/16 16:46:32 by cle-berr         ###   ########.fr       */
+/*   Updated: 2024/10/22 12:15:28 by cle-berr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -48,7 +48,7 @@ int main(void)
 
 	if (result)
 	{
-		printf("Chaîne transformée : %s\n", result);
+		printf("%s\n", result);
 		free(result);
 	}
 	return 0;

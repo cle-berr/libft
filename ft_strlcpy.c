@@ -6,7 +6,7 @@
 /*   By: cle-berr <cle-berr@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/14 14:18:04 by cle-berr          #+#    #+#             */
-/*   Updated: 2024/10/17 17:11:46 by cle-berr         ###   ########.fr       */
+/*   Updated: 2024/10/22 12:16:21 by cle-berr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -43,8 +43,8 @@ int main(void)
 
     len = ft_strlcpy(dest, src, sizeof(dest));
 
-    printf("Copied string: %s\n", dest); // Affiche "Hello, wo"
-    printf("Length of source: %u\n", len); // Affiche 13
+    printf("str: %s\n", dest);
+    printf("src: %u\n", len);
 
     return (0);
 }*/

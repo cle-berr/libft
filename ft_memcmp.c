@@ -6,7 +6,7 @@
 /*   By: cle-berr <cle-berr@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/15 12:39:09 by cle-berr          #+#    #+#             */
-/*   Updated: 2024/10/17 15:59:19 by cle-berr         ###   ########.fr       */
+/*   Updated: 2024/10/22 10:43:55 by cle-berr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,3 +29,10 @@ int	ft_memcmp(const void *s1, const void *s2, size_t n)
 	}
 	return (0);
 }
+
+/*#include <stdio.h>
+
+int main()
+{
+	printf("%d\n", ft_memcmp("aaadaaaaa", "aaaaaaaa", 4));
+}*/

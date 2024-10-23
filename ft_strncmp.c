@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strncmp.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: cle-berr <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: cle-berr <cle-berr@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/09 09:26:55 by cle-berr          #+#    #+#             */
-/*   Updated: 2024/07/09 09:26:59 by cle-berr         ###   ########.fr       */
+/*   Updated: 2024/10/22 12:14:38 by cle-berr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,3 +28,11 @@ int	ft_strncmp(char *s1, char *s2, unsigned int n)
 		return ((unsigned char)s1[c] - (unsigned char)s2[c]);
 	return (0);
 }
+
+/*#include <stdio.h>
+
+int main()
+{
+	printf("%s\n", ft_strncmp("abcdefghijkl", "abcdefghijkl", 5));
+	return (0);
+}*/

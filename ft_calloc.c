@@ -6,7 +6,7 @@
 /*   By: cle-berr <cle-berr@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/15 17:32:56 by cle-berr          #+#    #+#             */
-/*   Updated: 2024/10/18 10:24:19 by cle-berr         ###   ########.fr       */
+/*   Updated: 2024/10/22 10:07:33 by cle-berr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,6 +30,5 @@ void	*ft_calloc(size_t nmemb, size_t size)
 int main()
 {
 	printf("%p\n",ft_calloc(12, 0));
-	printf("%p\n",calloc(12, 0));
 	return (0);
 }*/

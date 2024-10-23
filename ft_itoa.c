@@ -6,13 +6,13 @@
 /*   By: cle-berr <cle-berr@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/17 15:38:41 by cle-berr          #+#    #+#             */
-/*   Updated: 2024/10/18 14:35:05 by cle-berr         ###   ########.fr       */
+/*   Updated: 2024/10/21 10:51:45 by cle-berr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int	int_len(int n)
+static int	int_len(int n)
 {
 	int	len;
 

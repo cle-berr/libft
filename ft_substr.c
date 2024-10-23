@@ -6,7 +6,7 @@
 /*   By: cle-berr <cle-berr@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/14 11:37:36 by cle-berr          #+#    #+#             */
-/*   Updated: 2024/10/18 11:07:51 by cle-berr         ###   ########.fr       */
+/*   Updated: 2024/10/22 12:18:57 by cle-berr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,3 +36,10 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	sub[i] = '\0';
 	return (sub);
 }
+/*#include <stdio.h>
+
+int main()
+{
+	printf("%s\n", ft_substr("abcdefghijkl", 5, 5));
+	return (0);
+}*/
